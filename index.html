@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lincoln</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre Mim</a></li>
+          <li><a href="#projeto">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <img src="imagem.png" alt="" />
+      <article>
+        <p>Olá! eu sou Lincoln, sou um desenvolvedor web...</p>
+      </article>
+      <aside>
+        <h3>Habilidades</h3>
+        <ul>
+          <li>HTML</li>
+          <li>Css</li>
+          <li>js</li>
+        </ul>
+      </aside>
+    </section>
+    <section id="projeto">
+      <h2>Projetos</h2>
+      <article>
+        <h3>Portifólio</h3>
+        <p>Este fiz o primeiro site que desenvolvi</p>
+      </article>
+    </section>
+    <footer>
+      <p>Direitos reservado a Lincoln</p>
+      <section id="contato">
+        <h2>Contato</h2>
+        <p>Tem um projeto em mente? Entre em contato</p>
+        <form action="">
+          <label for="nome">Nome: </label>
+          <input type="text" name="nome" id="nome" required /><br />
+
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" required /><br />
+
+          <label for="telefone">Telefone: </label>
+          <input type="tel" name="telefone" id="telefone" required /><br />
+
+          <label for="assunto">Assunto: </label>
+          <select name="assunto" id="assunto">
+            <option value="orcamento">Orçamento</option>
+            <option value="duvida">Dúvida</option>
+            <option value="outro">Outro</option>
+          </select>
+
+          <label for="mensagem">Mensagem: </label>
+          <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea>
+
+          <input type="checkbox" name="inscricao" id="inscricao" />
+          <label for="inscricao">
+            Deseja teceber minha newsletter? Fique por dentro.</label
+          >
+          <input type="submit" value="Enviar Mensagem" />
+          <!-- input submit enviar alutomaticamente tudo que ta no form-->
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
